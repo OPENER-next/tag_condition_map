@@ -8,20 +8,31 @@
         // create new condition entry if none exists
         if (conditionIndex === -1) {
           conditionIndex = conditionTagMap.push({
-            'DELFI_ID': question.id,
-            'LABEL': question.name,
+            'DELFI_ID': question.question.id,
+            'LABEL': question.question.name,
             'CONDITION': condition,
             'TAGS': new Map()
           }) - 1;
         }
         // assign values to conditions from current question
-        for (const valueEntry of Object.values(question.input.values)) {
-          for (const [key, value] of Object.entries(valueEntry.osm_tags)) {
+        if (question.answer.hasOwnProperty("constructor")) {
+          for (const [key, value] of Object.entries(question.answer.constructor)) {
             const tagMap = conditionTagMap[conditionIndex].TAGS;
             if (!tagMap.has(key)) {
               tagMap.set(key, new Set());
             }
             tagMap.get(key).add(value);
+          }
+        }
+        else if(Array.isArray(question.answer.input)) {
+          for (const valueEntry of question.answer.input) {
+            for (const [key, value] of Object.entries(valueEntry.osm_tags)) {
+              const tagMap = conditionTagMap[conditionIndex].TAGS;
+              if (!tagMap.has(key)) {
+                tagMap.set(key, new Set());
+              }
+              tagMap.get(key).add(value);
+            }
           }
         }
       }
