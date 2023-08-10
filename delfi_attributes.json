@@ -9,5 +9,19 @@
 			}
 		},
 		"TAGS": {}
-	}
+	},
+	{
+		"DELFI_ID": 1022,
+		"LABEL": "Fahrkartenverkaufsstelle stufenfrei erreichbar",
+		"CONDITION": {
+			"osm_tags": {
+				"shop": "ticket",
+				"ticket:public_transport": "yes"
+			}
+		},
+		"TAGS": {
+			"wheelchair": ["yes", "no", "limited"]
+		}
+	},
+	
 ]
