@@ -260,5 +260,23 @@
 			}
 		},
 		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1120,
+		"LABEL": "Wartegelegenheit mit Sitzplatz vorhanden",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"amenity": "bench"
+				}
+			},
+			{
+				"osm_tags": {
+					"public_transport": "platform",
+					"bench": "yes"
+				}
+			}
+		],
+		"TAGS": {}
 	}
 ]
