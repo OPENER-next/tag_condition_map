@@ -139,5 +139,82 @@
 			}
 		},
 		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1070,
+		"LABEL": "Öffentliche Toilette vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		}
+	},
+	{
+		"DELFI_ID": 1071,
+		"LABEL": "Öffentliche Toilette für Rollstuhlfahrer",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"wheelchair": "designated"
+		}
+	},
+	{
+		"DELFI_ID": 1072,
+		"LABEL": "Öffentliche Toilette für Rollstuhlfahrer und andere zugänglich",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"wheelchair": "yes"
+		}
+	},
+	{
+		"DELFI_ID": 1073,
+		"LABEL": "Rollstuhlfahrer-Toilette nur mit speziellem Schlüssel zugänglich",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"centralkey": "eurokey"
+		}
+	},
+	{
+		"DELFI_ID": 1074,
+		"LABEL": "Rollstuhlfahrer-Toilette mit Schlüssel aus lokalem Einzelhandel aufschließbar",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"locked:description": true
+		}
+	},
+	{
+		"DELFI_ID": 1075,
+		"LABEL": "Toilettenattribute",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "toilets",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"fee": true,
+			"opening_hours": true,
+			"operator": true
+		}
 	}
 ]
