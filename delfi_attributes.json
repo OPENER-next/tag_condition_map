@@ -99,5 +99,38 @@
 			}
 		},
 		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1051,
+		"LABEL": "Parkplatzattribute",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "parking",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"parking": true,
+			"capacity:disabled": true,
+			"park_ride":["yes", "no", "bus", "ferry", "train", "tram", "metro"]
+		}
+	},
+	{
+		"DELFI_ID": 1052,
+		"LABEL": "Parkplatznutzungsbedingungen/öffnungzeiten",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "parking",
+				"access": ["yes", "customers"]
+			}
+		},
+		"TAGS": {
+			"opening_hours": true,
+			"fee": true,
+			"maxstay": true
+		}
+	},
+	{
+		
 	}
 ]
