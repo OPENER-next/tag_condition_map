@@ -227,5 +227,38 @@
 			}
 		},
 		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1110,
+		"LABEL": "Notrufsäule vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"emergency": "phone"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1111,
+		"LABEL": "Informationssäule vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"tourism": "information",
+				"information": "terminal"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1112,
+		"LABEL": "Kombinierte Informations- und Notrufsäule vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"emergency": "phone",
+				"tourism": "information",
+				"information": "terminal"
+			}
+		},
+		"TAGS": {}
 	}
 ]
