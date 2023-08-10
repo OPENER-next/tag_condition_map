@@ -23,5 +23,18 @@
 			"wheelchair": ["yes", "no", "limited"]
 		}
 	},
-	
+	{
+		"DELFI_ID": 1021,
+		"LABEL": "Fahrkartenverkaufsstellenattribute",
+		"CONDITION": {
+			"osm_tags": {
+				"shop": "ticket",
+				"ticket:public_transport": "yes"
+			}
+		},
+		"TAGS": {
+			"opening_hours": true,
+			"operator": true
+		}
+	}
 ]
