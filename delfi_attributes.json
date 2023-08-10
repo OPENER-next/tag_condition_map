@@ -48,5 +48,46 @@
 			}
 		},
 		"TAGS": {}
-	}
+	},
+	{
+		"DELFI_ID": 1032,
+		"LABEL": "Informationsstelle stufenfrei erreichbar",
+		"CONDITION": {
+			"osm_tags": {
+				"information": "office",
+				"tourism": "information",
+				"information:public_transport": "yes"
+			}
+		},
+		"TAGS": {
+			"wheelchair": ["yes", "no", "limited"]
+		}
+	},
+	{
+		"DELFI_ID": 1031,
+		"LABEL": "Informationsstellenattribute",
+		"CONDITION": {
+			"osm_tags": {
+				"information": "office",
+				"tourism": "information",
+				"information:public_transport": "yes"
+			}
+		},
+		"TAGS": {
+			"opening_hours": true,
+			"operator": true
+		}
+	},
+	{
+		"DELFI_ID": 1040,
+		"LABEL": "Fahrkartenautomat vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "vending_machine",
+				"vending": "public_transport_tickets"
+			}
+		},
+		"TAGS": {}
+	},
+	
 ]
