@@ -36,5 +36,17 @@
 			"opening_hours": true,
 			"operator": true
 		}
+	},
+	{
+		"DELFI_ID": 1030,
+		"LABEL": "Informationsstelle vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"information": "office",
+				"tourism": "information",
+				"information:public_transport": "yes"
+			}
+		},
+		"TAGS": {}
 	}
 ]
