@@ -131,6 +131,13 @@
 		}
 	},
 	{
-		
+		"DELFI_ID": 1060,
+		"LABEL": "Taxistand vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"amenity": "taxi"
+			}
+		},
+		"TAGS": {}
 	}
 ]
