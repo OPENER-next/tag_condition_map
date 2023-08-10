@@ -1,0 +1,13 @@
+[
+	{
+		"DELFI_ID": 1020,
+		"LABEL": "Fahrkartenverkaufsstelle vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"shop": "ticket",
+				"ticket:public_transport": "yes"
+			}
+		},
+		"TAGS": {}
+	}
+]

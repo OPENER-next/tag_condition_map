@@ -1,0 +1,2753 @@
+[
+	{
+	  "DELFI_ID": 1021,
+	  "LABEL": "Betreiber",
+	  "CONDITION": {
+		"osm_tags": {
+		  "shop": "ticket",
+		  "tickets:public_transport": "yes",
+		  "operator": false
+		}
+	  },
+	  "TAGS": {
+		"operator": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1021,
+	  "LABEL": "Betreiber",
+	  "CONDITION": {
+		"osm_tags": {
+		  "tourism": "information",
+		  "information": "office",
+		  "information:public_transport": "yes",
+		  "operator": false
+		}
+	  },
+	  "TAGS": {
+		"operator": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "DHID des Steigs",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "ref:IFOPT": false,
+		  "noref:IFOPT": false
+		}
+	  },
+	  "TAGS": {
+		"ref:IFOPT": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "DHID der Haltestelle",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "stop_area",
+		  "ref:IFOPT": false,
+		  "noref:IFOPT": false
+		},
+		"osm_element": "Relation"
+	  },
+	  "TAGS": {
+		"ref:IFOPT": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1022,
+	  "LABEL": "Rollstuhlgerecht",
+	  "CONDITION": {
+		"osm_tags": {
+		  "shop": "ticket",
+		  "tickets:public_transport": "yes",
+		  "wheelchair": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1032,
+	  "LABEL": "Rollstuhlgerecht",
+	  "CONDITION": {
+		"osm_tags": {
+		  "tourism": "information",
+		  "information": "office",
+		  "information:public_transport": "yes",
+		  "wheelchair": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1051,
+	  "LABEL": "Parkplatz-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "parking": false
+		}
+	  },
+	  "TAGS": {
+		"parking": [
+		  "surface",
+		  "underground",
+		  "street_side",
+		  "multi-storey"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1051,
+	  "LABEL": "Behindertenparkplätze",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "capacity:disabled": false
+		}
+	  },
+	  "TAGS": {
+		"capacity:disabled": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1051,
+	  "LABEL": "Behindertenparkplatz-Anzahl",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "capacity:disabled": "yes"
+		}
+	  },
+	  "TAGS": {
+		"capacity:disabled": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1052,
+	  "LABEL": "Park+Ride",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "park_ride": false
+		}
+	  },
+	  "TAGS": {
+		"park_ride": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1052,
+	  "LABEL": "Parkplatz-Gebühren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "fee": false
+		}
+	  },
+	  "TAGS": {
+		"fee": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1071,
+	  "LABEL": "Toiletten-Zugänglichkeit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			false
+		  ],
+		  "wheelchair": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair": [
+		  "designated",
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1075,
+	  "LABEL": "Toiletten-Gebühren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			false
+		  ],
+		  "fee": false
+		}
+	  },
+	  "TAGS": {
+		"fee": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1120,
+	  "LABEL": "Sitzplätze",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "bench": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"bench": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1120,
+	  "LABEL": "Überdachter Wartebereich",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "shelter": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"shelter": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1130,
+	  "LABEL": "Fahrplan-Anzeige",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "station",
+		  "railway": "station",
+		  "departures_board": false
+		}
+	  },
+	  "TAGS": {
+		"departures_board": [
+		  "realtime",
+		  "timetable",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1130,
+	  "LABEL": "Fahrplan-Anzeige",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "station",
+		  "amenity": "bus_station",
+		  "departures_board": false
+		}
+	  },
+	  "TAGS": {
+		"departures_board": [
+		  "realtime",
+		  "timetable",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1131,
+	  "LABEL": "Akustische Ausgabe der Fahrplan-Anzeige",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": [
+			"station",
+			"stop_area"
+		  ],
+		  "departures_board": "realtime",
+		  "departures_board:speech_output": false
+		}
+	  },
+	  "TAGS": {
+		"departures_board:speech_output": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1140,
+	  "LABEL": "Dynamischer Fahrtziel-Anzeiger",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "passenger_information_display": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"passenger_information_display": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1141,
+	  "LABEL": "Akustische Ausgabe des Fahrtziel-Anzeigers",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "passenger_information_display": "yes",
+		  "passenger_information_display:speech_output": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"passenger_information_display:speech_output": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1150,
+	  "LABEL": "Ansagen",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "train": "yes",
+		  "announcement": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"announcement": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1170,
+	  "LABEL": "Haltestellen-Bordstein",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "railway": false,
+		  "train": [
+			false,
+			"no"
+		  ],
+		  "bus": [
+			false,
+			"yes"
+		  ],
+		  "kerb": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"kerb": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1170,
+	  "LABEL": "Haltestellen-Bordstein",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "railway": "platform",
+		  "bus": "yes",
+		  "kerb": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"kerb": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1170,
+	  "LABEL": "Bordstein-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "kerb": "yes"
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"kerb": [
+		  "raised",
+		  "lowered",
+		  "flush"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1170,
+	  "LABEL": "Plattform-Höhe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "height": false
+		},
+		"osm_element": [
+		  "OpenWay",
+		  "ClosedWay",
+		  "Relation"
+		]
+	  },
+	  "TAGS": {
+		"height": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1180,
+	  "LABEL": "Plattform-Breite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "width": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "Engstellen-Breite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "maxwidth:physical": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"maxwidth:physical": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1200,
+	  "LABEL": "Anfahrtshilfe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "kerb": [
+			"raised",
+			"yes"
+		  ],
+		  "kerb:approach_aid": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"kerb:approach_aid": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1210,
+	  "LABEL": "Bewegbare Rampe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "train": "yes",
+		  "wheelchair:portable_ramp": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"wheelchair:portable_ramp": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1211,
+	  "LABEL": "Rampen-Länge",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:portable_ramp": "yes",
+		  "wheelchair:portable_ramp:length": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:portable_ramp:length": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1212,
+	  "LABEL": "Rampen-Tragfähigkeit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:portable_ramp": "yes",
+		  "wheelchair:portable_ramp:maxweight": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:portable_ramp:maxweight": [
+		  [
+			"CONCAT",
+			"$input",
+			" kg"
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1220,
+	  "LABEL": "Bewegbarer Hublift",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "train": "yes",
+		  "wheelchair:portable_lift": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"wheelchair:portable_lift": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1221,
+	  "LABEL": "Hublift-Stellflächenlänge",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:portable_lift": "yes",
+		  "wheelchair:portable_lift:length": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:portable_lift:length": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1222,
+	  "LABEL": "Hublift-Tragfähigkeit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:portable_lift": "yes",
+		  "wheelchair:portable_lift:maxweight": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:portable_lift:maxweight": [
+		  [
+			"CONCAT",
+			"$input",
+			" kg"
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": [
+			"yes",
+			"main",
+			"secondary",
+			"exit",
+			"entrance",
+			"emergency",
+			"staircase",
+			"shop"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "level": true,
+		  "door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür",
+	  "CONDITION": {
+		"osm_tags": {
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": [
+			"yes",
+			"main",
+			"secondary",
+			"exit",
+			"entrance",
+			"emergency",
+			"staircase",
+			"shop"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": false
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "hinged",
+		  "swinging",
+		  "sliding",
+		  "revolving"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "level": true,
+		  "door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "hinged",
+		  "swinging",
+		  "sliding",
+		  "revolving"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "hinged",
+		  "swinging",
+		  "sliding",
+		  "revolving"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Tür-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": "yes"
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"door": [
+		  "hinged",
+		  "swinging",
+		  "sliding",
+		  "revolving"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "level": true,
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "automatic_door": false
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": "revolving",
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": "revolving",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "level": true,
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": "revolving",
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "automatic_door": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik",
+	  "CONDITION": {
+		"osm_tags": {
+		  "door": "revolving",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "automatic_door": false
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "level": true,
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Tür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": [
+			"hinged",
+			"sliding",
+			"folding"
+		  ],
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "door": "revolving",
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "continuous",
+		  "slowdown_button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "level": true,
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": "revolving",
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "continuous",
+		  "slowdown_button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": "revolving",
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "continuous",
+		  "slowdown_button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Drehtür-Automatik-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "door": "revolving",
+		  "automatic_door": "yes"
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "motion",
+		  "continuous",
+		  "slowdown_button"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2034,
+	  "LABEL": "Durchgangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"subway_entrance",
+			"train_station_entrance"
+		  ],
+		  "width": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2034,
+	  "LABEL": "Durchgangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": [
+			"yes",
+			"main",
+			"secondary",
+			"exit",
+			"entrance",
+			"emergency",
+			"staircase",
+			"shop"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "level": true,
+		  "width": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2034,
+	  "LABEL": "Durchgangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "indoor": "door",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "width": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2034,
+	  "LABEL": "Durchgangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": [
+			"yes",
+			"main",
+			"secondary",
+			"exit",
+			"entrance",
+			"emergency",
+			"staircase",
+			"shop"
+		  ],
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ],
+		  "width": false
+		},
+		"osm_element": "Node",
+		"parent": [
+		  {
+			"osm_tags": {
+			  "building": [
+				"train_station",
+				"transportation",
+				"toilets",
+				"parking"
+			  ]
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "public_transport": "station"
+			}
+		  },
+		  {
+			"osm_tags": {
+			  "level": true
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2050,
+	  "LABEL": "Bodenbeschaffenheit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "surface": false
+		},
+		"osm_element": [
+		  "OpenWay",
+		  "ClosedWay",
+		  "Relation"
+		]
+	  },
+	  "TAGS": {
+		"surface": [
+		  "paved",
+		  "unpaved"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2050,
+	  "LABEL": "Bodenbeschaffenheit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "footway",
+		  "footway": [
+			false,
+			"sidewalk"
+		  ],
+		  "surface": false,
+		  "indoor": [
+			"no",
+			false
+		  ]
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		},
+		"osm_element": [
+		  "OpenWay",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"surface": [
+		  "paved",
+		  "unpaved"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2050,
+	  "LABEL": "Bodenbeschaffenheit",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": [
+			"path",
+			"cycleway"
+		  ],
+		  "foot": [
+			"yes",
+			"designated"
+		  ],
+		  "surface": false,
+		  "indoor": [
+			"no",
+			false
+		  ]
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		},
+		"osm_element": [
+		  "OpenWay",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"surface": [
+		  "paved",
+		  "unpaved"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Haltestellen-Beleuchtung",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "lit": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay",
+		  "ClosedWay",
+		  "Relation"
+		]
+	  },
+	  "TAGS": {
+		"lit": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2070,
+	  "LABEL": "Bodenindikatoren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "tactile_paving": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2080,
+	  "LABEL": "Umlaufsperren-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "cycle_barrier",
+		  "cycle_barrier": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"cycle_barrier": [
+		  "single",
+		  "double",
+		  "triple",
+		  "diagonal"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2081,
+	  "LABEL": "Umlaufsperren-Durchgangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "cycle_barrier",
+		  "cycle_barrier": [
+			"single",
+			"diagonal"
+		  ],
+		  "maxwidth:physical": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"maxwidth:physical": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2081,
+	  "LABEL": "Umlaufsperren-Zugangsbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "cycle_barrier",
+		  "cycle_barrier": [
+			"double",
+			"triple"
+		  ],
+		  "opening": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"opening": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2081,
+	  "LABEL": "Umlaufsperren-Abstand",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "cycle_barrier",
+		  "cycle_barrier": [
+			"double",
+			"triple"
+		  ],
+		  "spacing": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"spacing": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2090,
+	  "LABEL": "Treppenlift",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "wheelchair:lift": false,
+		  "conveying": [
+			false,
+			"no"
+		  ]
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"wheelchair:lift": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2093,
+	  "LABEL": "Treppenlift-Tiefe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:lift": "yes",
+		  "wheelchair:lift:length": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:lift:length": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2093,
+	  "LABEL": "Fahrstuhl-Tiefe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator",
+		  "length": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"length": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2094,
+	  "LABEL": "Treppenlift-Breite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "wheelchair:lift": "yes",
+		  "wheelchair:lift:width": false
+		}
+	  },
+	  "TAGS": {
+		"wheelchair:lift:width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2094,
+	  "LABEL": "Fahrstuhl-Breite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator",
+		  "width": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"width": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "Fahrstuhl-Blindenschrift",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator",
+		  "tactile_writing": false
+		}
+	  },
+	  "TAGS": {
+		"tactile_writing": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Fahrstuhl-Ansagen",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator",
+		  "speech_output": false
+		}
+	  },
+	  "TAGS": {
+		"speech_output": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2112,
+	  "LABEL": "Stufen-Höhe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": [
+			false,
+			"no"
+		  ],
+		  "step:height": false
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"step:height": [
+		  [
+			"REPLACE",
+			"/\\.?0{1,2}$/",
+			"",
+			[
+			  "INSERT",
+			  ".",
+			  "-2",
+			  [
+				"PAD",
+				"0",
+				"3",
+				"$input"
+			  ]
+			]
+		  ]
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2113,
+	  "LABEL": "Stufen-Anzahl",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": [
+			false,
+			"no"
+		  ],
+		  "step_count": false
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"step_count": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "Bodenindikatoren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "tactile_paving": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "partial",
+		  "incorrect",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Handlauf-Blindenschrift",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": [
+			false,
+			"no"
+		  ],
+		  "handrail": "yes",
+		  "tactile_writing": false
+		}
+	  },
+	  "TAGS": {
+		"tactile_writing": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Treppen-Handlauf",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": [
+			false,
+			"no"
+		  ],
+		  "handrail": false
+		},
+		"!osm_tags": {
+		  "access": [
+			"no",
+			"private"
+		  ]
+		}
+	  },
+	  "TAGS": {
+		"handrail": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2134,
+	  "LABEL": "Rolltreppen-Fahrtdauer",
+	  "CONDITION": {
+		"osm_tags": {
+		  "conveying": [
+			"yes",
+			"forward",
+			"backward",
+			"reversible"
+		  ],
+		  "duration": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"duration": [
+		  [
+			"$input"
+		  ]
+		]
+	  }
+	},
+	{
+	  "LABEL": "Fußgängerübergangs-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"crossing": [
+		  "traffic_signals",
+		  "zebra",
+		  "marked",
+		  "unmarked"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Taster",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing": "traffic_signals",
+		  "button_operated": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"button_operated": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Taster",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing:signals": "yes",
+		  "button_operated": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"button_operated": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Taster",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing": "traffic_signals",
+		  "button_operated": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"button_operated": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Taster",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing:signals": "yes",
+		  "button_operated": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"button_operated": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Tastbarer-Pfeil",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:arrow": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:arrow": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Tastbarer-Pfeil",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:arrow": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:arrow": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Tastbarer-Pfeil",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:arrow": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:arrow": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Tastbarer-Pfeil",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:arrow": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:arrow": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Akustisches-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:sound": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:sound": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Akustisches-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:sound": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:sound": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Akustisches-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:sound": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:sound": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Akustisches-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:sound": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:sound": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Vibrations-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:vibration": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:vibration": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Vibrations-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:vibration": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:vibration": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Vibrations-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing": "traffic_signals",
+		  "traffic_signals:vibration": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:vibration": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Ampel-Vibrations-Signal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing:signals": "yes",
+		  "traffic_signals:vibration": false
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay"
+		]
+	  },
+	  "TAGS": {
+		"traffic_signals:vibration": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Bordstein-Art",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "kerb",
+		  "kerb": [
+			"yes",
+			false
+		  ]
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"kerb": [
+		  "raised",
+		  "lowered",
+		  "flush"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Bodenindikatoren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "kerb",
+		  "tactile_paving": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Straßenbahn-Akustisches-Warnsignal",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": "tram_crossing",
+		  "crossing:bell": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"crossing:bell": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Übergang-Bodenindikatoren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "railway": [
+			"tram_crossing",
+			"crossing"
+		  ],
+		  "tactile_paving": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Übergang-Bodenindikatoren",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "crossing",
+		  "tactile_paving": false
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "LABEL": "Verkehrsmittel",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "bus": false,
+		  "ferry": false,
+		  "light_rail": false,
+		  "monorail": false,
+		  "subway": false,
+		  "train": false,
+		  "tram": false,
+		  "trolleybus": false
+		},
+		"!parent": [
+		  {
+			"osm_tags": {
+			  "public_transport": "platform"
+			}
+		  }
+		]
+	  },
+	  "TAGS": {
+		"bus": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		],
+		"tram": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		],
+		"train": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		],
+		"light_rail": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		],
+		"subway": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		],
+		"monorail": [
+		  [
+			"COALESCE",
+			"$input"
+		  ]
+		]
+	  }
+	}
+  ]
