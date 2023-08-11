@@ -278,5 +278,516 @@
 			}
 		],
 		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1130,
+		"LABEL": "Dynamische Fahrplananzeigetafel vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"departures_board": "realtime"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1131,
+		"LABEL": "Dynamische Fahrplananzeigetafel mit akustischer Ausgabe vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"departures_board": "realtime"
+			}
+		},
+		"TAGS": [
+			{
+				"departures_board:speech_output": "yes"
+			},
+			{
+				"speech_output": "yes"
+			}
+		]
+	},
+	{
+		"DELFI_ID": 1140,
+		"LABEL": "Dynamischer Zugzielanzeiger vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"passenger_information_display": "yes"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 1141,
+		"LABEL": "Dynamischer Zugzielanzeiger mit akustischer Ausgabe vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"passenger_information_display": "yes"
+			}
+		},
+		"TAGS": [
+			{
+				"passenger_information_display:speech_output": "yes"
+			},
+			{
+				"speech_output": "yes"
+			}
+		]
+	},
+	{
+		"DELFI_ID": 1150,
+		"LABEL": "Ansagen am Bahnsteig vorhanden",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"public_transport": "platform"
+				}
+			},
+			{
+				"osm_tags": {
+					"railway": "platform"
+				}
+			}
+		],
+		"TAGS": {
+			"announcement": ["yes", "no"]
+		}	  
+	},
+	{
+		"DELFI_ID": 1170,
+		"LABEL": "Bordstein- /Bussteig- /Bahnsteighöhe",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"public_transport": "platform"
+				}
+			},
+			{
+				"osm_tags": {
+					"railway": "platform"
+				}
+			}
+		],
+		"TAGS": {
+			"height": true
+		}
+	},
+	{
+		"DELFI_ID": 1180,
+		"LABEL": "Breite des Bussteigs / Bahnsteigs",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"public_transport": "platform"
+				}
+			},
+			{
+				"osm_tags": {
+					"railway": "platform"
+				}
+			}
+		],
+		"TAGS": {
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": [1200, 1201, 1203],
+		"LABEL": "Hochbord mit Spurführung",
+		"CONDITION": {
+			"osm_tags": {
+				"kerb": "raised"
+			}
+		},
+		"TAGS": {
+			"kerb:approach_aid": "yes"
+		}
+	},
+	{
+		"DELFI_ID": 1202,
+		"LABEL": "Hochbord ohne Spurführung",
+		"CONDITION": {
+			"osm_tags": {
+				"kerb": "raised"
+			}
+		},
+		"TAGS": {
+			"kerb:approach_aid": "no"
+		}
+	},
+	{
+		"DELFI_ID": 2010,
+		"LABEL": "Stations-/Haltestellenplan vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"tourism": "information",
+				"information": "map",
+				"map_type": "public_transport",
+				"map_size": "site"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2021,
+		"LABEL": "Breite der niveaugleichen Wege",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": ["footway", "path"]
+			}
+		},
+		"TAGS": {
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": 2030,
+		"LABEL": "Tür vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"entrance": true
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2032,
+		"LABEL": "Art der Tür/des Zugangs",
+		"CONDITION": {
+			"osm_tags": {
+				"entrance": true
+			}
+		},
+		"TAGS": {
+			"door": ["yes", "hinged", "sliding", "revolving", "automatic", "swinging", "no"]
+		}
+	},
+	{
+		"DELFI_ID": 2033,
+		"LABEL": "Art der Türöffnung",
+		"CONDITION": {
+			"osm_tags": {
+				"entrance": true
+			}
+		},
+		"TAGS": {
+			"automatic_door": ["yes", "no", "button", "motion"]
+		}
+	},
+	{
+		"DELFI_ID": 2034,
+		"LABEL": "Lichte Breite der Türöffnung/des Zugangs",
+		"CONDITION": {
+			"osm_tags": {
+				"entrance": true
+			}
+		},
+		"TAGS": {
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": 2040,
+		"LABEL": "Gleisüberquerung erforderlich",
+		"CONDITION": {
+			"osm_tags": {
+				"railway": "crossing"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2050,
+		"LABEL": "Bodenbelag",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": ["footway", "path"]
+			}
+		},
+		"TAGS": {
+			"surface": ["paved", "unpaved", "asphalt", "concrete", "paving_stones", "sett", "cobblestone", "metal", "wood", "compacted", "fine_gravel", "pebblestone", "earth", "grass", "ground", "gravel", "mud", "sand", "snow", "ice", "salt", "woodchips", "grass_paver", "gravel_turf", "unhewn_cobblestone", "shell", "grasscrete", "rock", "clay", "debris", "dirt", "grass_paving", "plastic", "tar_and_chip", "woodchips"]
+		}
+	},
+	{
+		"DELFI_ID": 2070,
+		"LABEL": "Bodenindikatoren vorhanden",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"highway": ["footway", "path", "steps"]
+				}
+			},
+			{
+				"osm_tags": {
+					"railway": "platform"
+				}
+			},
+			{
+				"osm_tags": {
+					"public_transport": "platform"
+				}
+			}
+		],
+		"TAGS": {
+			"tactile_paving": ["yes", "no", "contrasted"]
+		}
+	},
+	{
+		"DELFI_ID": 2090,
+		"LABEL": "Aufzug vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2090,
+		"LABEL": "Türbreite des Aufzugs",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"entrance": true,
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": 2093,
+		"LABEL": "Grundflächenlänge des Aufzugs",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"length": true
+		}
+	},
+	{
+		"DELFI_ID": 2094,
+		"LABEL": "Grundflächenbreite des Aufzugs",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": 2092,
+		"LABEL": "Grundfläche des Aufzugs",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"width": true,
+			"length": true
+		}
+	},
+	{
+		"DELFI_ID": 2095,
+		"LABEL": "Verbindungsfunktion",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"level": true
+		}
+	},
+	{
+		"DELFI_ID": 2100,
+		"LABEL": "Stufe vorhanden",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"highway": "steps",
+					"step_count": "1"
+				}
+			},
+			{
+				"osm_tags": {
+					"barrier": "kerb",
+					"kerb": true
+				}
+			}
+		],
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2101,
+		"LABEL": "Stufenhöhe",
+		"CONDITION": [
+			{
+				"osm_tags": {
+					"highway": "steps",
+					"step_count": "1"
+				}
+			},
+			{
+				"osm_tags": {
+					"barrier": "kerb",
+					"kerb": true
+				}
+			}
+		],
+		"TAGS": [
+			{
+				"step_height": true
+			},
+			{
+				"kerb:height": true
+			}
+		]
+	},
+	{
+		"DELFI_ID": 2110,
+		"LABEL": "Treppe vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps"
+			}
+		},
+		"TAGS": {
+			"incline": true
+		}
+	},
+	{
+		"DELFI_ID": 2111,
+		"LABEL": "Verbindungsfunktion der Treppe",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps"
+			}
+		},
+		"TAGS": {
+			"level": true
+		}
+	},
+	{
+		"DELFI_ID": 2112,
+		"LABEL": "Stufenhöhe",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps"
+			}
+		},
+		"TAGS": {
+			"step:height": true
+		}
+	},
+	{
+		"DELFI_ID": 2113,
+		"LABEL": "Anzahl der Stufen",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps"
+			}
+		},
+		"TAGS": {
+			"step_count": true
+		}
+	},
+	{
+		"DELFI_ID": 2120,
+		"LABEL": "Rampe und Wege mit Neigungen vorhanden/Zugang über Rampe",
+		"CONDITION": {
+			"highway": ["footway", "path"],
+			"incline": true
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2121,
+		"LABEL": "Verbindungsfunktion der Rampe",
+		"CONDITION": {
+			"highway": ["footway", "path"],
+			"incline": true
+		},
+		"TAGS": {
+			"level": true
+		}
+	},
+	{
+		"DELFI_ID": 2123,
+		"LABEL": "Rampenbreite",
+		"CONDITION": {
+			"highway": ["footway", "path"],
+			"incline": true
+		},
+		"TAGS": {
+			"width": true
+		}
+	},
+	{
+		"DELFI_ID": 2130,
+		"LABEL": "Rolltreppe vorhanden",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps",
+				"conveying": true
+			}
+		},
+		"TAGS": {}
+	},
+	{
+		"DELFI_ID": 2131,
+		"LABEL": "Verbindungsfunktion der Rolltreppe",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps",
+				"conveying": true
+			}
+		},
+		"TAGS": {
+			"level": true
+		}
+	},
+	{
+		"DELFI_ID": 2132,
+		"LABEL": "Richtung der Rolltreppe",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps",
+				"conveying": true
+			}
+		},
+		"TAGS": {
+			"incline": true
+		}
+	},
+	{
+		"DELFI_ID": 2133,
+		"LABEL": "Wechselnde Richtung der Rolltreppe",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps",
+				"conveying": true
+			}
+		},
+		"TAGS": {
+			"conveying": ["forward", "backward", "reversible"]
+		}
+	},
+	{
+		"DELFI_ID": 2134,
+		"LABEL": "Länge der Rolltreppe (Laufzeit)",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "steps",
+				"conveying": true
+			}
+		},
+		"TAGS": {
+			"duration": true
+		}
 	}
 ]
