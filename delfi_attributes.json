@@ -74,8 +74,8 @@
 			}
 		},
 		"TAGS": {
-			"opening_hours": true,
-			"operator": true
+			"opening_hours": [],
+			"operator": []
 		}
 	},
 	{
@@ -274,7 +274,7 @@
 			{
 				"osm_tags": {
 					"public_transport": "platform",
-					"bench": "yes"
+					"bench": ["yes", "no"]
 				}
 			}
 		],
@@ -300,10 +300,10 @@
 		},
 		"TAGS": [
 			{
-				"departures_board:speech_output": "yes"
+				"departures_board:speech_output": ["yes", "no"]
 			},
 			{
-				"speech_output": "yes"
+				"speech_output": ["yes", "no"]
 			}
 		]
 	},
@@ -327,10 +327,10 @@
 		},
 		"TAGS": [
 			{
-				"passenger_information_display:speech_output": "yes"
+				"passenger_information_display:speech_output": ["yes", "no"]
 			},
 			{
-				"speech_output": "yes"
+				"speech_output": ["yes", "no"]
 			}
 		]
 	},
