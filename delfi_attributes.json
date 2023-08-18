@@ -12,7 +12,7 @@
 	},
 	{
 		"DELFI_ID": 1022,
-		"LABEL": "Fahrkartenverkaufsstelle stufenfrei erreichbar",
+		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
 		"CONDITION": {
 			"osm_tags": {
 				"shop": "ticket",
@@ -25,7 +25,7 @@
 	},
 	{
 		"DELFI_ID": 1021,
-		"LABEL": "Fahrkartenverkaufsstellenattribute",
+		"LABEL": "Verkaufsstellenart",
 		"CONDITION": {
 			"osm_tags": {
 				"shop": "ticket",
@@ -51,7 +51,7 @@
 	},
 	{
 		"DELFI_ID": 1032,
-		"LABEL": "Informationsstelle stufenfrei erreichbar",
+		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
 		"CONDITION": {
 			"osm_tags": {
 				"information": "office",
@@ -65,7 +65,7 @@
 	},
 	{
 		"DELFI_ID": 1031,
-		"LABEL": "Informationsstellenattribute",
+		"LABEL": "Informationsstellenart",
 		"CONDITION": {
 			"osm_tags": {
 				"information": "office",
@@ -91,7 +91,7 @@
 	},
 	{
 		"DELFI_ID": 1050,
-		"LABEL": "Parkplatz vorhanden",
+		"LABEL": "Öffentliche Parkplätze vorhanden",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "parking",
@@ -102,7 +102,7 @@
 	},
 	{
 		"DELFI_ID": 1051,
-		"LABEL": "Parkplatzattribute",
+		"LABEL": " Parkplatzart? (z. B. Park+Ride, Kurzzeit, Parkhaus, Behindertenplätze",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "parking",
@@ -117,7 +117,7 @@
 	},
 	{
 		"DELFI_ID": 1052,
-		"LABEL": "Parkplatznutzungsbedingungen/öffnungzeiten",
+		"LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "parking",
@@ -132,7 +132,7 @@
 	},
 	{
 		"DELFI_ID": 1060,
-		"LABEL": "Taxistand vorhanden",
+		"LABEL": "Taxen-Stand vorhanden ",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "taxi"
@@ -142,7 +142,7 @@
 	},
 	{
 		"DELFI_ID": 1070,
-		"LABEL": "Öffentliche Toilette vorhanden",
+		"LABEL": "Toilette vorhanden ",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -152,7 +152,7 @@
 	},
 	{
 		"DELFI_ID": 1071,
-		"LABEL": "Öffentliche Toilette für Rollstuhlfahrer",
+		"LABEL": "für Rollstuhlfahrer zugängliche Toilette vorhanden und stufenfrei (< 3 cm) erreichbar",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -165,7 +165,7 @@
 	},
 	{
 		"DELFI_ID": 1072,
-		"LABEL": "Öffentliche Toilette für Rollstuhlfahrer und andere zugänglich",
+		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist für alle Reisenden frei zugänglich",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -178,7 +178,7 @@
 	},
 	{
 		"DELFI_ID": 1073,
-		"LABEL": "Rollstuhlfahrer-Toilette nur mit speziellem Schlüssel zugänglich",
+		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit Euroschlüssel nutzbar",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -191,7 +191,7 @@
 	},
 	{
 		"DELFI_ID": 1074,
-		"LABEL": "Rollstuhlfahrer-Toilette mit Schlüssel aus lokalem Einzelhandel aufschließbar",
+		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit einem speziellen Schlüssel nutzbar, der beim örtlichen Einzelhandel zu den Öffnungszeiten ausgeliehen werden kann",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -204,7 +204,7 @@
 	},
 	{
 		"DELFI_ID": 1075,
-		"LABEL": "Toilettenattribute",
+		"LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "toilets",
@@ -219,7 +219,7 @@
 	},
 	{
 		"DELFI_ID": 1090,
-		"LABEL": "Gepäckaufbewahrung vorhanden",
+		"LABEL": "Schließfächer oder Aufbewahrungsmöglichkeiten vorhanden",
 		"CONDITION": {
 			"osm_tags": {
 				"amenity": "locker",
@@ -291,7 +291,7 @@
 	},
 	{
 		"DELFI_ID": 1131,
-		"LABEL": "Dynamische Fahrplananzeigetafel mit akustischer Ausgabe vorhanden",
+		"LABEL": "Mit akustischer Ausgabe",
 		"CONDITION": {
 			"osm_tags": {
 				"departures_board": "realtime"
@@ -308,7 +308,7 @@
 	},
 	{
 		"DELFI_ID": 1140,
-		"LABEL": "Dynamischer Zugzielanzeiger vorhanden",
+		"LABEL": "Dynamische Zugziel-/Fahrtzielanzeiger vorhanden",
 		"CONDITION": {
 			"osm_tags": {
 				"passenger_information_display": "yes"
@@ -318,7 +318,7 @@
 	},
 	{
 		"DELFI_ID": 1141,
-		"LABEL": "Dynamischer Zugzielanzeiger mit akustischer Ausgabe vorhanden",
+		"LABEL": "Mit akustischer Ausgabe",
 		"CONDITION": {
 			"osm_tags": {
 				"passenger_information_display": "yes"
@@ -335,7 +335,7 @@
 	},
 	{
 		"DELFI_ID": 1150,
-		"LABEL": "Ansagen am Bahnsteig vorhanden",
+		"LABEL": "Automatische Ansage vorhanden",
 		"CONDITION": [
 			{
 				"osm_tags": {
@@ -354,7 +354,7 @@
 	},
 	{
 		"DELFI_ID": 1170,
-		"LABEL": "Bordstein- /Bussteig- /Bahnsteighöhe",
+		"LABEL": "Bordstein- / Bussteig- / Bahnsteighöhe",
 		"CONDITION": [
 			{
 				"osm_tags": {
@@ -373,7 +373,7 @@
 	},
 	{
 		"DELFI_ID": 1180,
-		"LABEL": "Breite des Bussteigs / Bahnsteigs",
+		"LABEL": "Breite des Bahn- /Bussteigs",
 		"CONDITION": [
 			{
 				"osm_tags": {
@@ -497,7 +497,7 @@
 	},
 	{
 		"DELFI_ID": 2050,
-		"LABEL": "Bodenbelag",
+		"LABEL": "Unbefestigter Bodenbelag",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": ["footway", "path"]
@@ -543,7 +543,7 @@
 	},
 	{
 		"DELFI_ID": 2090,
-		"LABEL": "Türbreite des Aufzugs",
+		"LABEL": "Türbreite Aufzug",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": "elevator"
@@ -556,7 +556,7 @@
 	},
 	{
 		"DELFI_ID": 2093,
-		"LABEL": "Grundflächenlänge des Aufzugs",
+		"LABEL": "Grundflächenlänge",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": "elevator"
@@ -568,7 +568,7 @@
 	},
 	{
 		"DELFI_ID": 2094,
-		"LABEL": "Grundflächenbreite des Aufzugs",
+		"LABEL": "Grundflächenbreite",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": "elevator"
@@ -674,7 +674,7 @@
 	},
 	{
 		"DELFI_ID": 2112,
-		"LABEL": "Stufenhöhe",
+		"LABEL": "Stufenhöhe (Tritthöhe)",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": "steps"
@@ -686,7 +686,7 @@
 	},
 	{
 		"DELFI_ID": 2113,
-		"LABEL": "Anzahl der Stufen",
+		"LABEL": "Anzahl der Treppenstufen",
 		"CONDITION": {
 			"osm_tags": {
 				"highway": "steps"
@@ -707,7 +707,7 @@
 	},
 	{
 		"DELFI_ID": 2121,
-		"LABEL": "Verbindungsfunktion der Rampe",
+		"LABEL": "Verbindungsfunktion",
 		"CONDITION": {
 			"highway": ["footway", "path"],
 			"incline": true
