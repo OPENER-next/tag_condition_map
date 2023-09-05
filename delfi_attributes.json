@@ -853,7 +853,12 @@
 		{
 		  "osm_tags": {
 			"barrier": "kerb",
-			"kerb": true
+			"kerb": [
+			  "lowered",
+			  "flush",
+			  "raised",
+			  "no"
+			]
 		  }
 		}
 	  ],
@@ -872,7 +877,10 @@
 		{
 		  "osm_tags": {
 			"barrier": "kerb",
-			"kerb": true
+			"kerb": [
+				"lowered",
+				"raised"
+			  ]
 		  }
 		}
 	  ],
