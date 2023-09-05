@@ -159,16 +159,11 @@
 		]
 	  },
 	  "TAGS": {
-		"parking": [],
+		"parking": ["surface", "street_side", "underground", "multi-storey", "yes"],
 		"capacity:disabled": [],
 		"park_ride": [
 		  "yes",
-		  "no",
-		  "bus",
-		  "ferry",
-		  "train",
-		  "tram",
-		  "metro"
+		  "no"
 		]
 	  }
 	},
