@@ -159,7 +159,7 @@
 		]
 	  },
 	  "TAGS": {
-		"parking": ["surface", "street_side", "underground", "multi-storey", "yes"],
+		"parking": ["surface", "street_side", "underground", "multi-storey", "lane", "yes"],
 		"capacity:disabled": [],
 		"park_ride": [
 		  "yes",
