@@ -5,7 +5,7 @@
 	  "CONDITION": {
 		"osm_tags": {
 		  "shop": "ticket",
-		  "ticket:public_transport": "yes"
+		  "tickets:public_transport": "yes"
 		},
 		"osm_element": [
 		  "Node",
@@ -20,7 +20,7 @@
 	  "CONDITION": {
 		"osm_tags": {
 		  "shop": "ticket",
-		  "ticket:public_transport": "yes"
+		  "tickets:public_transport": "yes"
 		},
 		"osm_element": [
 		  "Node",
@@ -38,7 +38,7 @@
 	  "CONDITION": {
 		"osm_tags": {
 		  "shop": "ticket",
-		  "ticket:public_transport": "yes"
+		  "tickets:public_transport": "yes"
 		},
 		"osm_element": [
 		  "Node",
