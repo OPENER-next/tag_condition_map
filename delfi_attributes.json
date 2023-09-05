@@ -912,7 +912,8 @@
 	  "LABEL": "Verbindungsfunktion der Treppe",
 	  "CONDITION": {
 		"osm_tags": {
-		  "highway": "steps"
+		  "highway": "steps",
+		  "conveying": false
 		},
 		"osm_element": "OpenWay"
 	  },
@@ -925,7 +926,8 @@
 	  "LABEL": "Stufenhöhe (Tritthöhe)",
 	  "CONDITION": {
 		"osm_tags": {
-		  "highway": "steps"
+		  "highway": "steps",
+		  "conveying": false
 		},
 		"osm_element": "OpenWay"
 	  },
@@ -938,7 +940,8 @@
 	  "LABEL": "Anzahl der Treppenstufen",
 	  "CONDITION": {
 		"osm_tags": {
-		  "highway": "steps"
+		  "highway": "steps",
+		  "conveying": false
 		},
 		"osm_element": "OpenWay"
 	  },
