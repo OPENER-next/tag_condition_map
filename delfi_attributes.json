@@ -130,7 +130,8 @@
 		  "amenity": "parking",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -148,7 +149,8 @@
 		  "amenity": "parking",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -178,7 +180,8 @@
 		  "amenity": "parking",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -214,7 +217,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -232,7 +236,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -252,7 +257,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -272,7 +278,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -292,7 +299,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
@@ -312,7 +320,8 @@
 		  "amenity": "toilets",
 		  "access": [
 			"yes",
-			"customers"
+			"customers",
+			false
 		  ]
 		},
 		"osm_element": [
