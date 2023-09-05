@@ -898,7 +898,8 @@
 	  "LABEL": "Treppe vorhanden",
 	  "CONDITION": {
 		"osm_tags": {
-		  "highway": "steps"
+		  "highway": "steps",
+		  "conveying": false
 		},
 		"osm_element": "OpenWay"
 	  },
