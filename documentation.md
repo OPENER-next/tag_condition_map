@@ -27,7 +27,7 @@ The value can either be a `CONDITION-dicionary` or a list of `CONDITION-dictiona
 ### `CONDITION-dictionary`
 
 A condition dictionary is a dictionary that can contain a number of keys. The value for those keys need ALL evalueate to true for the condition dictionary as a whole to be true. The keys are:
-* `osm_tags`: A dictionary of OpenStreetMap-Keys and -values that all must be present for this sub-condition to be true. The keys are the OSM-Keys and the values are the OSM-Values. The values can be either a string, a list of strings or `true`. If the value is a list, the condition is true if any of the values in the list is present. If the value is `true`, the mere existence of the key is enough for the condition to be true.
+* `osm_tags`: A dictionary of OpenStreetMap-Keys and -values that all must be present for this sub-condition to be true. The keys are the OSM-Keys and the values are the OSM-Values. The values can be either a string, a list of strings, `true` or `false`. If the value is a list, the condition is true if any of the values in the list is present. If the value is `true`, the mere existence of the key is enough for the condition to be true. If the value is `false`, the condition is true if the key is not present.
 * `osm_element`: A string that can be either `Node`, `OpenWay`, `ClosedWay`, `Relation` or a list of those strings. The condition is true if the element is of the type specified in the value. If the value is a list, the condition is true if the element is of any of the types specified in the list. If `osm_element` is not present, the condition is true for all element types.
 
 ### `TAGS`
