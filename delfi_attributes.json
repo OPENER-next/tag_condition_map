@@ -792,19 +792,6 @@
 	  "TAGS": {}
 	},
 	{
-	  "DELFI_ID": 2090,
-	  "LABEL": "Türbreite Aufzug",
-	  "CONDITION": {
-		"osm_tags": {
-		  "highway": "elevator"
-		}
-	  },
-	  "TAGS": {
-		"entrance": [],
-		"width": []
-	  }
-	},
-	{
 	  "DELFI_ID": 2092,
 	  "LABEL": "Grundfläche des Aufzugs",
 	  "CONDITION": {
