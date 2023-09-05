@@ -159,7 +159,13 @@
 		]
 	  },
 	  "TAGS": {
-		"parking": ["surface", "street_side", "underground", "multi-storey", "lane"],
+		"parking": [
+		  "surface",
+		  "street_side",
+		  "underground",
+		  "multi-storey",
+		  "lane"
+		],
 		"capacity:disabled": [],
 		"park_ride": [
 		  "yes",
@@ -396,9 +402,9 @@
 	  ],
 	  "TAGS": {
 		"bench": [
-			"yes",
-			"no"
-		  ]
+		  "yes",
+		  "no"
+		]
 	  }
 	},
 	{
@@ -668,12 +674,20 @@
 	{
 	  "DELFI_ID": 2040,
 	  "LABEL": "Gleisüberquerung erforderlich",
-	  "CONDITION": {
-		"osm_tags": {
-		  "railway": "crossing"
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"railway": "crossing"
+		  },
+		  "osm_element": "Node"
 		},
-		"osm_element": "Node"
-	  },
+		{
+		  "osm_tags": {
+			"railway": "tram_crossing"
+		  },
+		  "osm_element": "Node"
+		}
+	  ],
 	  "TAGS": {}
 	},
 	{
