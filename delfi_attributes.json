@@ -12,20 +12,6 @@
 		"TAGS": {}
 	},
 	{
-		"DELFI_ID": 1022,
-		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
-		"CONDITION": {
-			"osm_tags": {
-				"shop": "ticket",
-				"ticket:public_transport": "yes"
-			},
-			"osm_element": ["Node", "ClosedWay"]
-		},
-		"TAGS": {
-			"wheelchair": ["yes", "no", "limited"]
-		}
-	},
-	{
 		"DELFI_ID": 1021,
 		"LABEL": "Verkaufsstellenart",
 		"CONDITION": {
@@ -38,6 +24,20 @@
 		"TAGS": {
 			"opening_hours": [],
 			"operator": []
+		}
+	},
+	{
+		"DELFI_ID": 1022,
+		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
+		"CONDITION": {
+			"osm_tags": {
+				"shop": "ticket",
+				"ticket:public_transport": "yes"
+			},
+			"osm_element": ["Node", "ClosedWay"]
+		},
+		"TAGS": {
+			"wheelchair": ["yes", "no", "limited"]
 		}
 	},
 	{
@@ -54,21 +54,6 @@
 		"TAGS": {}
 	},
 	{
-		"DELFI_ID": 1032,
-		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
-		"CONDITION": {
-			"osm_tags": {
-				"information": "office",
-				"tourism": "information",
-				"information:public_transport": "yes"
-			},
-			"osm_element": ["Node", "ClosedWay"]
-		},
-		"TAGS": {
-			"wheelchair": ["yes", "no", "limited"]
-		}
-	},
-	{
 		"DELFI_ID": 1031,
 		"LABEL": "Informationsstellenart",
 		"CONDITION": {
@@ -82,6 +67,21 @@
 		"TAGS": {
 			"opening_hours": [],
 			"operator": []
+		}
+	},
+	{
+		"DELFI_ID": 1032,
+		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
+		"CONDITION": {
+			"osm_tags": {
+				"information": "office",
+				"tourism": "information",
+				"information:public_transport": "yes"
+			},
+			"osm_element": ["Node", "ClosedWay"]
+		},
+		"TAGS": {
+			"wheelchair": ["yes", "no", "limited"]
 		}
 	},
 	{
@@ -607,6 +607,19 @@
 		}
 	},
 	{
+		"DELFI_ID": 2092,
+		"LABEL": "Grundfläche des Aufzugs",
+		"CONDITION": {
+			"osm_tags": {
+				"highway": "elevator"
+			}
+		},
+		"TAGS": {
+			"width": [],
+			"length": []
+		}
+	},
+	{
 		"DELFI_ID": 2093,
 		"LABEL": "Grundflächenlänge",
 		"CONDITION": {
@@ -628,19 +641,6 @@
 		},
 		"TAGS": {
 			"width": []
-		}
-	},
-	{
-		"DELFI_ID": 2092,
-		"LABEL": "Grundfläche des Aufzugs",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {
-			"width": [],
-			"length": []
 		}
 	},
 	{
