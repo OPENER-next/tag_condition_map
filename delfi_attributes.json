@@ -390,25 +390,16 @@
 	  "CONDITION": [
 		{
 		  "osm_tags": {
-			"amenity": "bench"
-		  },
-		  "osm_element": [
-			"Node",
-			"OpenWay",
-			"ClosedWay"
-		  ]
-		},
-		{
-		  "osm_tags": {
-			"public_transport": "platform",
-			"bench": [
-			  "yes",
-			  "no"
-			]
+			"public_transport": "platform"
 		  }
 		}
 	  ],
-	  "TAGS": {}
+	  "TAGS": {
+		"bench": [
+			"yes",
+			"no"
+		  ]
+	  }
 	},
 	{
 	  "DELFI_ID": 1130,
