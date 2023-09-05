@@ -693,7 +693,8 @@
 	{
 	  "DELFI_ID": 2050,
 	  "LABEL": "Unbefestigter Bodenbelag",
-	  "CONDITION": {
+	  "CONDITION": [
+		{
 		"osm_tags": {
 		  "highway": [
 			"footway",
@@ -702,6 +703,12 @@
 		},
 		"osm_element": "OpenWay"
 	  },
+	  {
+		"osm_tags": {
+		  "public_transport": "platform"
+		}
+	  }
+	],
 	  "TAGS": {
 		"surface": [
 		  "paved",
