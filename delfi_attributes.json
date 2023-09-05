@@ -903,9 +903,7 @@
 		},
 		"osm_element": "OpenWay"
 	  },
-	  "TAGS": {
-		"incline": []
-	  }
+	  "TAGS": {}
 	},
 	{
 	  "DELFI_ID": 2111,
