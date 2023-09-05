@@ -695,20 +695,20 @@
 	  "LABEL": "Unbefestigter Bodenbelag",
 	  "CONDITION": [
 		{
-		"osm_tags": {
-		  "highway": [
-			"footway",
-			"path"
-		  ]
+		  "osm_tags": {
+			"highway": [
+			  "footway",
+			  "path"
+			]
+		  },
+		  "osm_element": "OpenWay"
 		},
-		"osm_element": "OpenWay"
-	  },
-	  {
-		"osm_tags": {
-		  "public_transport": "platform"
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
 		}
-	  }
-	],
+	  ],
 	  "TAGS": {
 		"surface": [
 		  "paved",
@@ -878,9 +878,9 @@
 		  "osm_tags": {
 			"barrier": "kerb",
 			"kerb": [
-				"lowered",
-				"raised"
-			  ]
+			  "lowered",
+			  "raised"
+			]
 		  }
 		}
 	  ],
