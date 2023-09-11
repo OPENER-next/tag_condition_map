@@ -445,10 +445,15 @@
 		"LABEL": "Dynamische Zugziel-/Fahrtzielanzeiger vorhanden",
 		"CONDITION": {
 			"osm_tags": {
-				"passenger_information_display": "yes"
+				"public_transport": "platform"
 			}
 		},
-		"TAGS": {}
+		"TAGS": {
+			"passenger_information_display": [
+				"yes",
+				"no"
+			]
+		}
 	},
 	{
 		"DELFI_ID": 1141,
