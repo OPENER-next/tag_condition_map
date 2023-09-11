@@ -425,20 +425,13 @@
 				"departures_board": "realtime"
 			}
 		},
-		"TAGS": [
+		"TAGS":
 			{
 				"departures_board:speech_output": [
 					"yes",
 					"no"
 				]
-			},
-			{
-				"speech_output": [
-					"yes",
-					"no"
-				]
 			}
-		]
 	},
 	{
 		"DELFI_ID": 1140,
