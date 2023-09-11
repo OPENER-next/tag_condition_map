@@ -835,13 +835,22 @@
 	{
 		"DELFI_ID": 2101,
 		"LABEL": "Stufenhöhe",
-		"CONDITION": [
+		"CONDITION":
 			{
 				"osm_tags": {
 					"highway": "steps",
 					"step_count": "1"
 				}
 			},
+		"TAGS":
+			{
+				"step:height": []
+			}
+	},
+	{
+		"DELFI_ID": 2101,
+		"LABEL": "Stufenhöhe",
+		"CONDITION": 
 			{
 				"osm_tags": {
 					"barrier": "kerb",
@@ -850,16 +859,11 @@
 						"raised"
 					]
 				}
-			}
-		],
-		"TAGS": [
-			{
-				"step:height": []
 			},
+		"TAGS": 
 			{
 				"kerb:height": []
 			}
-		]
 	},
 	{
 		"DELFI_ID": 2110,
