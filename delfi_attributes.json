@@ -455,23 +455,17 @@
 		"LABEL": "Mit akustischer Ausgabe",
 		"CONDITION": {
 			"osm_tags": {
+				"public_transport": "platform",
 				"passenger_information_display": "yes"
 			}
 		},
-		"TAGS": [
+		"TAGS":
 			{
 				"passenger_information_display:speech_output": [
 					"yes",
 					"no"
 				]
-			},
-			{
-				"speech_output": [
-					"yes",
-					"no"
-				]
 			}
-		]
 	},
 	{
 		"DELFI_ID": 1150,
