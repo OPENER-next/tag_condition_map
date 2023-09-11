@@ -546,30 +546,6 @@
 		}
 	},
 	{
-		"DELFI_ID": 1201,
-		"LABEL": "Hochbord mit Spurführung",
-		"CONDITION": {
-			"osm_tags": {
-				"kerb": "raised"
-			}
-		},
-		"TAGS": {
-			"kerb:approach_aid": "yes"
-		}
-	},
-	{
-		"DELFI_ID": 1203,
-		"LABEL": "Hochbord mit Spurführung",
-		"CONDITION": {
-			"osm_tags": {
-				"kerb": "raised"
-			}
-		},
-		"TAGS": {
-			"kerb:approach_aid": "yes"
-		}
-	},
-	{
 		"DELFI_ID": 1202,
 		"LABEL": "Hochbord ohne Spurführung",
 		"CONDITION": {
