@@ -1,1028 +1,1022 @@
 [
 	{
-		"DELFI_ID": 1020,
-		"LABEL": "Fahrkartenverkaufsstelle vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"shop": "ticket",
-				"tickets:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1020,
+	  "LABEL": "Fahrkartenverkaufsstelle vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "shop": "ticket",
+		  "tickets:public_transport": "yes"
 		},
-		"TAGS": {}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1021,
-		"LABEL": "Verkaufsstellenart",
-		"CONDITION": {
-			"osm_tags": {
-				"shop": "ticket",
-				"tickets:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1021,
+	  "LABEL": "Verkaufsstellenart",
+	  "CONDITION": {
+		"osm_tags": {
+		  "shop": "ticket",
+		  "tickets:public_transport": "yes"
 		},
-		"TAGS": {
-			"opening_hours": [],
-			"operator": []
-		}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"opening_hours": [],
+		"operator": []
+	  }
 	},
 	{
-		"DELFI_ID": 1022,
-		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
-		"CONDITION": {
-			"osm_tags": {
-				"shop": "ticket",
-				"tickets:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1022,
+	  "LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
+	  "CONDITION": {
+		"osm_tags": {
+		  "shop": "ticket",
+		  "tickets:public_transport": "yes"
 		},
-		"TAGS": {
-			"wheelchair": [
-				"yes",
-				"no",
-				"limited"
-			]
-		}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"wheelchair": [
+		  "yes",
+		  "no",
+		  "limited"
+		]
+	  }
 	},
 	{
-		"DELFI_ID": 1030,
-		"LABEL": "Informationsstelle vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"information": "office",
-				"tourism": "information",
-				"information:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1030,
+	  "LABEL": "Informationsstelle vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "information": "office",
+		  "tourism": "information",
+		  "information:public_transport": "yes"
 		},
-		"TAGS": {}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1031,
-		"LABEL": "Informationsstellenart",
-		"CONDITION": {
-			"osm_tags": {
-				"information": "office",
-				"tourism": "information",
-				"information:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1031,
+	  "LABEL": "Informationsstellenart",
+	  "CONDITION": {
+		"osm_tags": {
+		  "information": "office",
+		  "tourism": "information",
+		  "information:public_transport": "yes"
 		},
-		"TAGS": {
-			"opening_hours": [],
-			"operator": []
-		}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"opening_hours": [],
+		"operator": []
+	  }
 	},
 	{
-		"DELFI_ID": 1032,
-		"LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
-		"CONDITION": {
-			"osm_tags": {
-				"information": "office",
-				"tourism": "information",
-				"information:public_transport": "yes"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1032,
+	  "LABEL": "Stufenfrei erreichbar (Stufe/Schwelle maximal 3 cm)",
+	  "CONDITION": {
+		"osm_tags": {
+		  "information": "office",
+		  "tourism": "information",
+		  "information:public_transport": "yes"
 		},
-		"TAGS": {
-			"wheelchair": [
-				"yes",
-				"no",
-				"limited"
-			]
-		}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"wheelchair": [
+		  "yes",
+		  "no",
+		  "limited"
+		]
+	  }
 	},
 	{
-		"DELFI_ID": 1040,
-		"LABEL": "Fahrkartenautomat vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "vending_machine",
-				"vending": "public_transport_tickets"
-			},
-			"osm_element": "Node"
+	  "DELFI_ID": 1040,
+	  "LABEL": "Fahrkartenautomat vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "vending_machine",
+		  "vending": "public_transport_tickets"
 		},
-		"TAGS": {}
+		"osm_element": "Node"
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1050,
-		"LABEL": "Öffentliche Parkplätze vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "parking",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1050,
+	  "LABEL": "Öffentliche Parkplätze vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
 		},
-		"TAGS": {}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1051,
-		"LABEL": "Parkplatzart? (z. B. Park+Ride, Kurzzeit, Parkhaus, Behindertenplätze",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "parking",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
+	  "DELFI_ID": 1051,
+	  "LABEL": "Parkplatzart? (z. B. Park+Ride, Kurzzeit, Parkhaus, Behindertenplätze",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
 		},
-		"TAGS": {
-			"parking": [
-				"surface",
-				"street_side",
-				"underground",
-				"multi-storey",
-				"lane"
-			],
-			"capacity:disabled": [],
-			"park_ride": [
-				"yes",
-				"no"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 1052,
-		"LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "parking",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"opening_hours": [],
-			"fee": [],
-			"maxstay": []
-		}
-	},
-	{
-		"DELFI_ID": 1060,
-		"LABEL": "Taxen-Stand vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "taxi"
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1070,
-		"LABEL": "Toilette vorhanden ",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1071,
-		"LABEL": "für Rollstuhlfahrer zugängliche Toilette vorhanden und stufenfrei (< 3 cm) erreichbar",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"wheelchair": "designated"
-		}
-	},
-	{
-		"DELFI_ID": 1072,
-		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist für alle Reisenden frei zugänglich",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"wheelchair": "yes"
-		}
-	},
-	{
-		"DELFI_ID": 1073,
-		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit Euroschlüssel nutzbar",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"centralkey": "eurokey"
-		}
-	},
-	{
-		"DELFI_ID": 1074,
-		"LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit einem speziellen Schlüssel nutzbar, der beim örtlichen Einzelhandel zu den Öffnungszeiten ausgeliehen werden kann",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"locked:description": []
-		}
-	},
-	{
-		"DELFI_ID": 1075,
-		"LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "toilets",
-				"access": [
-					"yes",
-					"customers",
-					false
-				]
-			},
-			"osm_element": [
-				"Node",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {
-			"fee": [],
-			"opening_hours": []
-		}
-	},
-	{
-		"DELFI_ID": 1090,
-		"LABEL": "Schließfächer oder Aufbewahrungsmöglichkeiten vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"amenity": "locker",
-				"locker": [
-					"luggage",
-					"handbag"
-				]
-			},
-			"osm_element": [
-				"Node",
-				"OpenWay",
-				"ClosedWay"
-			]
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1110,
-		"LABEL": "Notrufsäule vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"emergency": "phone"
-			},
-			"osm_element": "Node"
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1111,
-		"LABEL": "Informationssäule vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"tourism": "information",
-				"information": "terminal"
-			},
-			"osm_element": "Node"
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1112,
-		"LABEL": "Kombinierte Informations- und Notrufsäule vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"emergency": "phone",
-				"tourism": "information",
-				"information": "terminal"
-			},
-			"osm_element": "Node"
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1120,
-		"LABEL": "Wartegelegenheit mit Sitzplatz vorhanden",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			}
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"parking": [
+		  "surface",
+		  "street_side",
+		  "underground",
+		  "multi-storey",
+		  "lane"
 		],
-		"TAGS": {
-			"bench": [
-				"yes",
-				"no"
+		"capacity:disabled": [],
+		"park_ride": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1052,
+	  "LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "parking",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"opening_hours": [],
+		"fee": [],
+		"maxstay": []
+	  }
+	},
+	{
+	  "DELFI_ID": 1060,
+	  "LABEL": "Taxen-Stand vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "taxi"
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1070,
+	  "LABEL": "Toilette vorhanden ",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1071,
+	  "LABEL": "für Rollstuhlfahrer zugängliche Toilette vorhanden und stufenfrei (< 3 cm) erreichbar",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"wheelchair": "designated"
+	  }
+	},
+	{
+	  "DELFI_ID": 1072,
+	  "LABEL": "für Rollstuhlfahrer zugängliche Toilette ist für alle Reisenden frei zugänglich",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"wheelchair": "yes"
+	  }
+	},
+	{
+	  "DELFI_ID": 1073,
+	  "LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit Euroschlüssel nutzbar",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"centralkey": "eurokey"
+	  }
+	},
+	{
+	  "DELFI_ID": 1074,
+	  "LABEL": "für Rollstuhlfahrer zugängliche Toilette ist mit einem speziellen Schlüssel nutzbar, der beim örtlichen Einzelhandel zu den Öffnungszeiten ausgeliehen werden kann",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"locked:description": []
+	  }
+	},
+	{
+	  "DELFI_ID": 1075,
+	  "LABEL": "Aufnahme der Öffnungszeiten/Nutzungsbedingungen",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "toilets",
+		  "access": [
+			"yes",
+			"customers",
+			false
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {
+		"fee": [],
+		"opening_hours": []
+	  }
+	},
+	{
+	  "DELFI_ID": 1090,
+	  "LABEL": "Schließfächer oder Aufbewahrungsmöglichkeiten vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "amenity": "locker",
+		  "locker": [
+			"luggage",
+			"handbag"
+		  ]
+		},
+		"osm_element": [
+		  "Node",
+		  "OpenWay",
+		  "ClosedWay"
+		]
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1110,
+	  "LABEL": "Notrufsäule vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "emergency": "phone"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1111,
+	  "LABEL": "Informationssäule vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "tourism": "information",
+		  "information": "terminal"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1112,
+	  "LABEL": "Kombinierte Informations- und Notrufsäule vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "emergency": "phone",
+		  "tourism": "information",
+		  "information": "terminal"
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1120,
+	  "LABEL": "Wartegelegenheit mit Sitzplatz vorhanden",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
+		}
+	  ],
+	  "TAGS": {
+		"bench": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1130,
+	  "LABEL": "Dynamische Fahrplananzeigetafel vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "departures_board": "realtime"
+		}
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 1131,
+	  "LABEL": "Mit akustischer Ausgabe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "departures_board": "realtime"
+		}
+	  },
+	  "TAGS": {
+		"departures_board:speech_output": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1140,
+	  "LABEL": "Dynamische Zugziel-/Fahrtzielanzeiger vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform"
+		}
+	  },
+	  "TAGS": {
+		"passenger_information_display": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1141,
+	  "LABEL": "Mit akustischer Ausgabe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "public_transport": "platform",
+		  "passenger_information_display": "yes"
+		}
+	  },
+	  "TAGS": {
+		"passenger_information_display:speech_output": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1150,
+	  "LABEL": "Automatische Ansage vorhanden",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
+		},
+		{
+		  "osm_tags": {
+			"railway": "platform"
+		  }
+		}
+	  ],
+	  "TAGS": {
+		"announcement": [
+		  "yes",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 1170,
+	  "LABEL": "Bordstein- / Bussteig- / Bahnsteighöhe",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
+		},
+		{
+		  "osm_tags": {
+			"railway": "platform"
+		  }
+		}
+	  ],
+	  "TAGS": {
+		"height": []
+	  }
+	},
+	{
+	  "DELFI_ID": 1180,
+	  "LABEL": "Breite des Bahn- /Bussteigs",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
+		},
+		{
+		  "osm_tags": {
+			"railway": "platform"
+		  }
+		}
+	  ],
+	  "TAGS": {
+		"width": []
+	  }
+	},
+	{
+	  "DELFI_ID": 1200,
+	  "LABEL": "Hochbord mit Spurführung",
+	  "CONDITION": {
+		"osm_tags": {
+		  "kerb": "raised"
+		}
+	  },
+	  "TAGS": {
+		"kerb:approach_aid": "yes"
+	  }
+	},
+	{
+	  "DELFI_ID": 1202,
+	  "LABEL": "Hochbord ohne Spurführung",
+	  "CONDITION": {
+		"osm_tags": {
+		  "kerb": "raised"
+		}
+	  },
+	  "TAGS": {
+		"kerb:approach_aid": "no"
+	  }
+	},
+	{
+	  "DELFI_ID": 2010,
+	  "LABEL": "Stations-/Haltestellenplan vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "tourism": "information",
+		  "information": "map",
+		  "map_type": "public_transport",
+		  "map_size": "site"
+		}
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 2021,
+	  "LABEL": "Breite der niveaugleichen Wege",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": [
+			"footway",
+			"path"
+		  ]
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"width": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2030,
+	  "LABEL": "Tür vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": true
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 2032,
+	  "LABEL": "Art der Tür/des Zugangs",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": true
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"door": [
+		  "hinged",
+		  "sliding",
+		  "revolving",
+		  "swinging",
+		  "no"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2033,
+	  "LABEL": "Art der Türöffnung",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": true
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"automatic_door": [
+		  "yes",
+		  "no",
+		  "button",
+		  "motion"
+		]
+	  }
+	},
+	{
+	  "DELFI_ID": 2034,
+	  "LABEL": "Lichte Breite der Türöffnung/des Zugangs",
+	  "CONDITION": {
+		"osm_tags": {
+		  "entrance": true
+		},
+		"osm_element": "Node"
+	  },
+	  "TAGS": {
+		"width": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2040,
+	  "LABEL": "Gleisüberquerung erforderlich",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"railway": "crossing"
+		  },
+		  "osm_element": "Node"
+		},
+		{
+		  "osm_tags": {
+			"railway": "tram_crossing"
+		  },
+		  "osm_element": "Node"
+		}
+	  ],
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 2050,
+	  "LABEL": "Unbefestigter Bodenbelag",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"highway": [
+			  "footway",
+			  "path"
 			]
+		  },
+		  "osm_element": "OpenWay"
+		},
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
 		}
+	  ],
+	  "TAGS": {
+		"surface": [
+		  "paved",
+		  "unpaved",
+		  "asphalt",
+		  "concrete",
+		  "paving_stones",
+		  "sett",
+		  "cobblestone",
+		  "metal",
+		  "wood",
+		  "compacted",
+		  "fine_gravel",
+		  "pebblestone",
+		  "earth",
+		  "grass",
+		  "ground",
+		  "gravel",
+		  "mud",
+		  "sand",
+		  "snow",
+		  "ice",
+		  "salt",
+		  "woodchips",
+		  "grass_paver",
+		  "gravel_turf",
+		  "unhewn_cobblestone",
+		  "shell",
+		  "grasscrete",
+		  "rock",
+		  "clay",
+		  "debris",
+		  "dirt",
+		  "grass_paving",
+		  "plastic",
+		  "tar_and_chip",
+		  "woodchips"
+		]
+	  }
 	},
 	{
-		"DELFI_ID": 1130,
-		"LABEL": "Dynamische Fahrplananzeigetafel vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"departures_board": "realtime"
-			}
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 1131,
-		"LABEL": "Mit akustischer Ausgabe",
-		"CONDITION": {
-			"osm_tags": {
-				"departures_board": "realtime"
-			}
-		},
-		"TAGS":
-			{
-				"departures_board:speech_output": [
-					"yes",
-					"no"
-				]
-			}
-	},
-	{
-		"DELFI_ID": 1140,
-		"LABEL": "Dynamische Zugziel-/Fahrtzielanzeiger vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"public_transport": "platform"
-			}
-		},
-		"TAGS": {
-			"passenger_information_display": [
-				"yes",
-				"no"
+	  "DELFI_ID": 2070,
+	  "LABEL": "Bodenindikatoren vorhanden",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"highway": [
+			  "footway",
+			  "path",
+			  "steps"
 			]
-		}
-	},
-	{
-		"DELFI_ID": 1141,
-		"LABEL": "Mit akustischer Ausgabe",
-		"CONDITION": {
-			"osm_tags": {
-				"public_transport": "platform",
-				"passenger_information_display": "yes"
-			}
+		  }
 		},
-		"TAGS":
-			{
-				"passenger_information_display:speech_output": [
-					"yes",
-					"no"
-				]
-			}
+		{
+		  "osm_tags": {
+			"railway": "platform"
+		  }
+		},
+		{
+		  "osm_tags": {
+			"public_transport": "platform"
+		  }
+		}
+	  ],
+	  "TAGS": {
+		"tactile_paving": [
+		  "yes",
+		  "no",
+		  "contrasted"
+		]
+	  }
 	},
 	{
-		"DELFI_ID": 1150,
-		"LABEL": "Automatische Ansage vorhanden",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			},
-			{
-				"osm_tags": {
-					"railway": "platform"
-				}
-			}
-		],
-		"TAGS": {
-			"announcement": [
-				"yes",
-				"no"
+	  "DELFI_ID": 2090,
+	  "LABEL": "Aufzug vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator"
+		}
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 2092,
+	  "LABEL": "Grundfläche des Aufzugs",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator"
+		}
+	  },
+	  "TAGS": {
+		"width": [],
+		"length": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2093,
+	  "LABEL": "Grundflächenlänge",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator"
+		}
+	  },
+	  "TAGS": {
+		"length": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2094,
+	  "LABEL": "Grundflächenbreite",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator"
+		}
+	  },
+	  "TAGS": {
+		"width": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2095,
+	  "LABEL": "Verbindungsfunktion",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "elevator"
+		}
+	  },
+	  "TAGS": {
+		"level": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2100,
+	  "LABEL": "Stufe vorhanden",
+	  "CONDITION": [
+		{
+		  "osm_tags": {
+			"highway": "steps",
+			"step_count": "1"
+		  }
+		},
+		{
+		  "osm_tags": {
+			"barrier": "kerb",
+			"kerb": [
+			  "lowered",
+			  "flush",
+			  "raised",
+			  "no"
 			]
+		  }
 		}
+	  ],
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1170,
-		"LABEL": "Bordstein- / Bussteig- / Bahnsteighöhe",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			},
-			{
-				"osm_tags": {
-					"railway": "platform"
-				}
-			}
-		],
-		"TAGS": {
-			"height": []
+	  "DELFI_ID": 2101,
+	  "LABEL": "Stufenhöhe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "step_count": "1"
 		}
+	  },
+	  "TAGS": {
+		"step:height": []
+	  }
 	},
 	{
-		"DELFI_ID": 1180,
-		"LABEL": "Breite des Bahn- /Bussteigs",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			},
-			{
-				"osm_tags": {
-					"railway": "platform"
-				}
-			}
-		],
-		"TAGS": {
-			"width": []
+	  "DELFI_ID": 2101,
+	  "LABEL": "Stufenhöhe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "barrier": "kerb",
+		  "kerb": [
+			"lowered",
+			"raised"
+		  ]
 		}
+	  },
+	  "TAGS": {
+		"kerb:height": []
+	  }
 	},
 	{
-		"DELFI_ID": 1200,
-		"LABEL": "Hochbord mit Spurführung",
-		"CONDITION": {
-			"osm_tags": {
-				"kerb": "raised"
-			}
+	  "DELFI_ID": 2110,
+	  "LABEL": "Treppe vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": false
 		},
-		"TAGS": {
-			"kerb:approach_aid": "yes"
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {}
+	},
+	{
+	  "DELFI_ID": 2111,
+	  "LABEL": "Verbindungsfunktion der Treppe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"level": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2112,
+	  "LABEL": "Stufenhöhe (Tritthöhe)",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"step:height": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2113,
+	  "LABEL": "Anzahl der Treppenstufen",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": false
+		},
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"step_count": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2120,
+	  "LABEL": "Rampe und Wege mit Neigungen vorhanden/Zugang über Rampe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": [
+			"footway",
+			"path"
+		  ],
+		  "incline": true
 		}
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 1202,
-		"LABEL": "Hochbord ohne Spurführung",
-		"CONDITION": {
-			"osm_tags": {
-				"kerb": "raised"
-			}
+	  "DELFI_ID": 2121,
+	  "LABEL": "Verbindungsfunktion",
+	  "CONDITION": {
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"level": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2123,
+	  "LABEL": "Rampenbreite",
+	  "CONDITION": {
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"width": []
+	  }
+	},
+	{
+	  "DELFI_ID": 2130,
+	  "LABEL": "Rolltreppe vorhanden",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": true
 		},
-		"TAGS": {
-			"kerb:approach_aid": "no"
-		}
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {}
 	},
 	{
-		"DELFI_ID": 2010,
-		"LABEL": "Stations-/Haltestellenplan vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"tourism": "information",
-				"information": "map",
-				"map_type": "public_transport",
-				"map_size": "site"
-			}
+	  "DELFI_ID": 2131,
+	  "LABEL": "Verbindungsfunktion der Rolltreppe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": true
 		},
-		"TAGS": {}
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"level": []
+	  }
 	},
 	{
-		"DELFI_ID": 2021,
-		"LABEL": "Breite der niveaugleichen Wege",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": [
-					"footway",
-					"path"
-				]
-			},
-			"osm_element": "OpenWay"
+	  "DELFI_ID": 2132,
+	  "LABEL": "Richtung der Rolltreppe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": true
 		},
-		"TAGS": {
-			"width": []
-		}
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"incline": []
+	  }
 	},
 	{
-		"DELFI_ID": 2030,
-		"LABEL": "Tür vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"entrance": true
-			},
-			"osm_element": "Node"
+	  "DELFI_ID": 2133,
+	  "LABEL": "Wechselnde Richtung der Rolltreppe",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": true
 		},
-		"TAGS": {}
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"conveying": [
+		  "forward",
+		  "backward",
+		  "reversible"
+		]
+	  }
 	},
 	{
-		"DELFI_ID": 2032,
-		"LABEL": "Art der Tür/des Zugangs",
-		"CONDITION": {
-			"osm_tags": {
-				"entrance": true
-			},
-			"osm_element": "Node"
+	  "DELFI_ID": 2134,
+	  "LABEL": "Länge der Rolltreppe (Laufzeit)",
+	  "CONDITION": {
+		"osm_tags": {
+		  "highway": "steps",
+		  "conveying": true
 		},
-		"TAGS": {
-			"door": [
-				"hinged",
-				"sliding",
-				"revolving",
-				"swinging",
-				"no"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 2033,
-		"LABEL": "Art der Türöffnung",
-		"CONDITION": {
-			"osm_tags": {
-				"entrance": true
-			},
-			"osm_element": "Node"
-		},
-		"TAGS": {
-			"automatic_door": [
-				"yes",
-				"no",
-				"button",
-				"motion"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 2034,
-		"LABEL": "Lichte Breite der Türöffnung/des Zugangs",
-		"CONDITION": {
-			"osm_tags": {
-				"entrance": true
-			},
-			"osm_element": "Node"
-		},
-		"TAGS": {
-			"width": []
-		}
-	},
-	{
-		"DELFI_ID": 2040,
-		"LABEL": "Gleisüberquerung erforderlich",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"railway": "crossing"
-				},
-				"osm_element": "Node"
-			},
-			{
-				"osm_tags": {
-					"railway": "tram_crossing"
-				},
-				"osm_element": "Node"
-			}
-		],
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2050,
-		"LABEL": "Unbefestigter Bodenbelag",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"highway": [
-						"footway",
-						"path"
-					]
-				},
-				"osm_element": "OpenWay"
-			},
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			}
-		],
-		"TAGS": {
-			"surface": [
-				"paved",
-				"unpaved",
-				"asphalt",
-				"concrete",
-				"paving_stones",
-				"sett",
-				"cobblestone",
-				"metal",
-				"wood",
-				"compacted",
-				"fine_gravel",
-				"pebblestone",
-				"earth",
-				"grass",
-				"ground",
-				"gravel",
-				"mud",
-				"sand",
-				"snow",
-				"ice",
-				"salt",
-				"woodchips",
-				"grass_paver",
-				"gravel_turf",
-				"unhewn_cobblestone",
-				"shell",
-				"grasscrete",
-				"rock",
-				"clay",
-				"debris",
-				"dirt",
-				"grass_paving",
-				"plastic",
-				"tar_and_chip",
-				"woodchips"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 2070,
-		"LABEL": "Bodenindikatoren vorhanden",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"highway": [
-						"footway",
-						"path",
-						"steps"
-					]
-				}
-			},
-			{
-				"osm_tags": {
-					"railway": "platform"
-				}
-			},
-			{
-				"osm_tags": {
-					"public_transport": "platform"
-				}
-			}
-		],
-		"TAGS": {
-			"tactile_paving": [
-				"yes",
-				"no",
-				"contrasted"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 2090,
-		"LABEL": "Aufzug vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2092,
-		"LABEL": "Grundfläche des Aufzugs",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {
-			"width": [],
-			"length": []
-		}
-	},
-	{
-		"DELFI_ID": 2093,
-		"LABEL": "Grundflächenlänge",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {
-			"length": []
-		}
-	},
-	{
-		"DELFI_ID": 2094,
-		"LABEL": "Grundflächenbreite",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {
-			"width": []
-		}
-	},
-	{
-		"DELFI_ID": 2095,
-		"LABEL": "Verbindungsfunktion",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "elevator"
-			}
-		},
-		"TAGS": {
-			"level": []
-		}
-	},
-	{
-		"DELFI_ID": 2100,
-		"LABEL": "Stufe vorhanden",
-		"CONDITION": [
-			{
-				"osm_tags": {
-					"highway": "steps",
-					"step_count": "1"
-				}
-			},
-			{
-				"osm_tags": {
-					"barrier": "kerb",
-					"kerb": [
-						"lowered",
-						"flush",
-						"raised",
-						"no"
-					]
-				}
-			}
-		],
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2101,
-		"LABEL": "Stufenhöhe",
-		"CONDITION":
-			{
-				"osm_tags": {
-					"highway": "steps",
-					"step_count": "1"
-				}
-			},
-		"TAGS":
-			{
-				"step:height": []
-			}
-	},
-	{
-		"DELFI_ID": 2101,
-		"LABEL": "Stufenhöhe",
-		"CONDITION": 
-			{
-				"osm_tags": {
-					"barrier": "kerb",
-					"kerb": [
-						"lowered",
-						"raised"
-					]
-				}
-			},
-		"TAGS": 
-			{
-				"kerb:height": []
-			}
-	},
-	{
-		"DELFI_ID": 2110,
-		"LABEL": "Treppe vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": false
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2111,
-		"LABEL": "Verbindungsfunktion der Treppe",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": false
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"level": []
-		}
-	},
-	{
-		"DELFI_ID": 2112,
-		"LABEL": "Stufenhöhe (Tritthöhe)",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": false
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"step:height": []
-		}
-	},
-	{
-		"DELFI_ID": 2113,
-		"LABEL": "Anzahl der Treppenstufen",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": false
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"step_count": []
-		}
-	},
-	{
-		"DELFI_ID": 2120,
-		"LABEL": "Rampe und Wege mit Neigungen vorhanden/Zugang über Rampe",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": [
-					"footway",
-					"path"
-				],
-				"incline": true
-			}
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2121,
-		"LABEL": "Verbindungsfunktion",
-		"CONDITION": {
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"level": []
-		}
-	},
-	{
-		"DELFI_ID": 2123,
-		"LABEL": "Rampenbreite",
-		"CONDITION": {
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"width": []
-		}
-	},
-	{
-		"DELFI_ID": 2130,
-		"LABEL": "Rolltreppe vorhanden",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": true
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {}
-	},
-	{
-		"DELFI_ID": 2131,
-		"LABEL": "Verbindungsfunktion der Rolltreppe",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": true
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"level": []
-		}
-	},
-	{
-		"DELFI_ID": 2132,
-		"LABEL": "Richtung der Rolltreppe",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": true
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"incline": []
-		}
-	},
-	{
-		"DELFI_ID": 2133,
-		"LABEL": "Wechselnde Richtung der Rolltreppe",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": true
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"conveying": [
-				"forward",
-				"backward",
-				"reversible"
-			]
-		}
-	},
-	{
-		"DELFI_ID": 2134,
-		"LABEL": "Länge der Rolltreppe (Laufzeit)",
-		"CONDITION": {
-			"osm_tags": {
-				"highway": "steps",
-				"conveying": true
-			},
-			"osm_element": "OpenWay"
-		},
-		"TAGS": {
-			"duration": []
-		}
+		"osm_element": "OpenWay"
+	  },
+	  "TAGS": {
+		"duration": []
+	  }
 	}
-]
+  ]
