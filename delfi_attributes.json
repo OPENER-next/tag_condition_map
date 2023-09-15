@@ -513,7 +513,8 @@
 	   "CONDITION":[
 		  {
 			 "osm_tags":{
-				"public_transport":"platform"
+				"public_transport":"platform",
+				"train": "yes"
 			 }
 		  },
 		  {
