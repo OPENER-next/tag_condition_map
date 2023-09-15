@@ -514,13 +514,13 @@
 		  {
 			 "osm_tags":{
 				"public_transport":"platform",
-				"train": "yes"
+				"train":"yes"
 			 }
 		  },
 		  {
 			 "osm_tags":{
 				"railway":"platform",
-				"train": "yes"
+				"train":"yes"
 			 }
 		  }
 	   ],
@@ -560,19 +560,19 @@
 			 "osm_tags":{
 				"public_transport":"platform"
 			 },
-			 "osm_element": [
-				"Node", 
+			 "osm_element":[
+				"Node",
 				"OpenWay"
-			]
+			 ]
 		  },
 		  {
 			 "osm_tags":{
 				"railway":"platform"
 			 },
-			 "osm_element": [
-				"Node", 
+			 "osm_element":[
+				"Node",
 				"OpenWay"
-			]
+			 ]
 		  }
 	   ],
 	   "TAGS":{
@@ -586,8 +586,8 @@
 	   "LABEL":"Hochbord mit Spurführung",
 	   "CONDITION":{
 		  "osm_tags":{
-			"public_transport": "platform",
-			"kerb":"raised"
+			 "public_transport":"platform",
+			 "kerb":"raised"
 		  }
 	   },
 	   "TAGS":{
@@ -599,8 +599,8 @@
 	   "LABEL":"Hochbord ohne Spurführung",
 	   "CONDITION":{
 		  "osm_tags":{
-			"public_transport": "platform",
-			"kerb":"raised"
+			 "public_transport":"platform",
+			 "kerb":"raised"
 		  }
 	   },
 	   "TAGS":{
@@ -791,7 +791,7 @@
 	   "CONDITION":[
 		  {
 			 "osm_tags":{
-				"highway": "steps"
+				"highway":"steps"
 			 }
 		  },
 		  {
@@ -816,14 +816,14 @@
 	{
 	   "DELFI_ID":2072,
 	   "LABEL":"Bodenindikatoren vorhanden",
-	   "CONDITION": {
-			 "osm_tags":{
-				"highway":[
-				   "footway",
-				   "path"
-				]
-			 }
-		  },
+	   "CONDITION":{
+		  "osm_tags":{
+			 "highway":[
+				"footway",
+				"path"
+			 ]
+		  }
+	   },
 	   "TAGS":{
 		  "tactile_paving":[
 			 "yes",
@@ -1044,6 +1044,13 @@
 	   "DELFI_ID":2121,
 	   "LABEL":"Verbindungsfunktion",
 	   "CONDITION":{
+		  "osm_tags":{
+			 "highway":[
+				"footway",
+				"path"
+			 ],
+			 "incline":true
+		  },
 		  "osm_element":"OpenWay"
 	   },
 	   "TAGS":{
@@ -1056,10 +1063,35 @@
 	   "DELFI_ID":2123,
 	   "LABEL":"Rampenbreite",
 	   "CONDITION":{
-		  "osm_element":"OpenWay"
+		  "osm_element":"OpenWay",
+		  "osm_tags":{
+			 "highway":[
+				"footway",
+				"path"
+			 ],
+			 "incline":true
+		  }
 	   },
 	   "TAGS":{
 		  "width":[
+			 
+		  ]
+	   }
+	},
+	{
+	   "DELFI_ID":2124,
+	   "LABEL":"Rampenneigung",
+	   "CONDITION":{
+		  "osm_tags":{
+			 "highway":[
+				"footway",
+				"path"
+			 ],
+			 "incline":true
+		  }
+	   },
+	   "TAGS":{
+		  "incline":[
 			 
 		  ]
 	   }
