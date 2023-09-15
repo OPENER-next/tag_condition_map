@@ -409,7 +409,7 @@
 	   "CONDITION":{
 		  "osm_tags":{
 			 "tourism":"information",
-			 "information":"terminal"
+			 "information":"phone"
 		  },
 		  "osm_element":"Node"
 	   },
@@ -424,7 +424,7 @@
 		  "osm_tags":{
 			 "emergency":"phone",
 			 "tourism":"information",
-			 "information":"terminal"
+			 "information":"phone"
 		  },
 		  "osm_element":"Node"
 	   },
