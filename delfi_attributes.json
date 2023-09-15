@@ -559,12 +559,20 @@
 		  {
 			 "osm_tags":{
 				"public_transport":"platform"
-			 }
+			 },
+			 "osm_element": [
+				"Node", 
+				"OpenWay"
+			]
 		  },
 		  {
 			 "osm_tags":{
 				"railway":"platform"
-			 }
+			 },
+			 "osm_element": [
+				"Node", 
+				"OpenWay"
+			]
 		  }
 	   ],
 	   "TAGS":{
