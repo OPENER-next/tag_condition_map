@@ -791,11 +791,7 @@
 	   "CONDITION":[
 		  {
 			 "osm_tags":{
-				"highway":[
-				   "footway",
-				   "path",
-				   "steps"
-				]
+				"highway": "steps"
 			 }
 		  },
 		  {
@@ -809,6 +805,25 @@
 			 }
 		  }
 	   ],
+	   "TAGS":{
+		  "tactile_paving":[
+			 "yes",
+			 "no",
+			 "contrasted"
+		  ]
+	   }
+	},
+	{
+	   "DELFI_ID":2072,
+	   "LABEL":"Bodenindikatoren vorhanden",
+	   "CONDITION": {
+			 "osm_tags":{
+				"highway":[
+				   "footway",
+				   "path"
+				]
+			 }
+		  },
 	   "TAGS":{
 		  "tactile_paving":[
 			 "yes",
