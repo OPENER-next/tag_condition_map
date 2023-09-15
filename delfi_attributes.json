@@ -519,7 +519,8 @@
 		  },
 		  {
 			 "osm_tags":{
-				"railway":"platform"
+				"railway":"platform",
+				"train": "yes"
 			 }
 		  }
 	   ],
