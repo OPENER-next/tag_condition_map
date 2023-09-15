@@ -586,7 +586,8 @@
 	   "LABEL":"Hochbord mit Spurführung",
 	   "CONDITION":{
 		  "osm_tags":{
-			 "kerb":"raised"
+			"public_transport": "platform",
+			"kerb":"raised"
 		  }
 	   },
 	   "TAGS":{
@@ -598,7 +599,8 @@
 	   "LABEL":"Hochbord ohne Spurführung",
 	   "CONDITION":{
 		  "osm_tags":{
-			 "kerb":"raised"
+			"public_transport": "platform",
+			"kerb":"raised"
 		  }
 	   },
 	   "TAGS":{
