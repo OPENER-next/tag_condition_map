@@ -833,6 +833,45 @@
 	   }
 	},
 	{
+	   "DELFI_ID":2080,
+	   "LABEL":"Durchgangsbreite der Umlaufsperre/des Sperrelements/der Engstelle",
+	   "CONDITION":{
+		  "osm_tags":{
+			 "barrier":"cycle_barrier",
+			 "cycle_barrier":[
+				"single",
+				"diagonal"
+			 ]
+		  }
+	   },
+	   "TAGS":{
+		  "maxwidth:physical":[
+			 
+		  ]
+	   }
+	},
+	{
+	   "DELFI_ID":2081,
+	   "LABEL":"Bewegungsfläche in, durch und aus der Engstelle",
+	   "CONDITION":{
+		  "osm_tags":{
+			 "barrier":"cycle_barrier",
+			 "cycle_barrier":[
+				"double",
+				"triple"
+			 ]
+		  }
+	   },
+	   "TAGS":{
+		  "opening":[
+			 
+		  ],
+		  "spacing":[
+			 
+		  ]
+	   }
+	},
+	{
 	   "DELFI_ID":2090,
 	   "LABEL":"Aufzug vorhanden",
 	   "CONDITION":{
@@ -1172,48 +1211,6 @@
 	   },
 	   "TAGS":{
 		  "duration":[
-			 
-		  ]
-	   }
-	},
-	{
-	   "DELFI_ID":2080,
-	   "LABEL":"Durchgangsbreite der Umlaufsperre/des Sperrelements/der Engstelle",
-	   "CONDITION":{
-		  "osm_tags":{
-			 "barrier":"cycle_barrier",
-			 "cycle_barrier":[
-				"single",
-				"diagonal"
-			 ]
-		  }
-	   },
-	   "TAGS":{
-		  "maxwidth:physical":[
-			 
-		  ]
-	   }
-	},
-	{
-	   "DELFI_ID":2081,
-	   "LABEL":"Bewegungsfläche in, durch und aus der Engstelle",
-	   "CONDITION":{
-		  "osm_tags":{
-			 "barrier":"cycle_barrier",
-			 "cycle_barrier":[
-				"double",
-				"triple"
-			 ]
-		  }
-	   },
-	   "TAGS":{
-		  "opening":[
-			 
-		  ],
-		  "spacing":[
-			 
-		  ],
-		  "overlap":[
 			 
 		  ]
 	   }
