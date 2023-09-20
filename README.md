@@ -20,7 +20,7 @@ A string that represents the Label exactly as it is displayed in the DELFI-Book.
 
 ### `CONDITION`
 
-Condition describes what conditions must be met so that the element is tested if they fulfill all conditions stated in `TAGS`. So, to reiterate, `CONDITION` selects the elements for which the tests are performed, while `TAGS` are the conditions that are tested for.
+This describes preconditions that must be met before an element is checked for the presence of the actual values defined under `TAGS`.
 
 The value can either be a `CONDITION-dicionary` or a list of `CONDITION-dictionary`s. In case of a list only one of the supplied CONDITION-dicionarys has to evaluate to true.
 
