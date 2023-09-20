@@ -1,16 +1,17 @@
-# delfi_attributes.json - Documentation
+# tag_condition_map - A schema to make checking for completeness of accessibility OSM-Data easier
 
-This file explains the schema according to wich the `delfi_attributes.json` file is built and should be parsed.
+This repository contains the file `delfi_attributes.json`, which can be used to check if accessibility-related OSM-Data on public transport stops is complete. It uses the [DELFI-Handbook](https://www.delfi.de/media/delfi_handbuch_barrierefreie_reiseketten_1._auflage_mai_2018.pdf) as basis for what objects are checked for which attributes. Simply explained, it contains a list of conditions that connect objects that _do have_ certain OSM-Tags (e.g. tags that mark an object as a public transport information office) to tags that theese objects _should have_ to be in compliance with DELFI (e.g. tags that mark an object as wheelchair accessible).
 
 ## Schema
+This section explains the schema according to wich the `delfi_attributes.json` file is built and should be parsed.
 
-The file is a List `[]` of Dictionarys `{}`. 
+The file is a List `[]` of Dictionarys `{}`. Each dictionary represents one DELFI-attribute that is checked for.
 
 Every Dictionary must contain the following attributes:
 
 ### `DELFI_ID`
 
-An integer that represents the DELFI-ID of the attribute that is in question. 
+An integer that represents the DELFI-ID of the attribute that is checked by this dictionary. 
 
 
 ### `LABEL`
@@ -21,7 +22,7 @@ A string that represents the Label exactly as it is displayed in the DELFI-Book.
 
 Condition describes what conditions must be met so that the element is tested if they fulfill all conditions stated in `TAGS`. So, to reiterate, `CONDITION` selects the elements for which the tests are performed, while `TAGS` are the conditions that are tested for.
 
-The value can either be a `CONDITION-dicionary` or a list of `CONDITION-dictionary`s. If its a list, the conditions are combined with an OR-operator.
+The value can either be a `CONDITION-dicionary` or a list of `CONDITION-dictionary`s. In case of a list only one of the supplied CONDITION-dicionarys has to evaluate to true.
 
 
 ### `CONDITION-dictionary`
@@ -32,4 +33,4 @@ A condition dictionary is a dictionary that can contain a number of keys. The va
 
 ### `TAGS`
 
-`TAGS` is a dictionary with OpenStreetMap-Keys as keys and the values for those OpenStreepMap-Keys as values. The values can either be a string, a list of strings, or an empty list. If the value is a string, the condition is true if the element has the key and the value is equal to the value specified in the `TAGS`-dictionary. If the value is a list, the condition is true if the element has the key and the value is equal to any of the values specified in the list. If the value is an empty list, the condition is true if the element has the key, regardless of the value.
+`TAGS` is a dictionary with OpenStreetMap-Keys as keys. Each key corresponds to a list of strings representing the expected values. If an empty list is supplied the exact value of the key is indeterminate. If `TAGS` is empty, the mere existence of an element that was selected by the `CONDITION` is enough to pass the test.
