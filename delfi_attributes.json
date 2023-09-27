@@ -247,7 +247,7 @@
       ]
     },
     "TAGS": {
-      "wheelchair": "designated"
+      "wheelchair": ["designated"]
     }
   },
   {
@@ -268,7 +268,7 @@
       ]
     },
     "TAGS": {
-      "wheelchair": "yes"
+      "wheelchair": ["yes"]
     }
   },
   {
@@ -289,7 +289,7 @@
       ]
     },
     "TAGS": {
-      "centralkey": "eurokey"
+      "centralkey": ["eurokey"]
     }
   },
   {
@@ -422,11 +422,27 @@
     "LABEL": "Mit akustischer Ausgabe",
     "CONDITION": {
       "osm_tags": {
+        "railway": "station",
         "departures_board": "realtime"
       }
     },
     "TAGS": {
       "departures_board:speech_output": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "DELFI_ID": 1131,
+    "LABEL": "Mit akustischer Ausgabe",
+    "CONDITION": {
+      "osm_tags": {
+        "departures_board": "realtime"
+      }
+    },
+    "TAGS": {
+      "speech_output": [
         "yes",
         "no"
       ]
@@ -543,7 +559,7 @@
       }
     },
     "TAGS": {
-      "kerb:approach_aid": "yes"
+      "kerb:approach_aid": ["yes"]
     }
   },
   {
@@ -1074,7 +1090,11 @@
       "osm_element": "OpenWay"
     },
     "TAGS": {
-      "incline": []
+      "conveying": [
+        "forward",
+        "backward",
+        "reversible"
+      ]
     }
   },
   {
