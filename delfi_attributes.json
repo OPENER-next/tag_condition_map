@@ -422,11 +422,27 @@
     "LABEL": "Mit akustischer Ausgabe",
     "CONDITION": {
       "osm_tags": {
+        "railway": "station",
         "departures_board": "realtime"
       }
     },
     "TAGS": {
       "departures_board:speech_output": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "DELFI_ID": 1131,
+    "LABEL": "Mit akustischer Ausgabe",
+    "CONDITION": {
+      "osm_tags": {
+        "departures_board": "realtime"
+      }
+    },
+    "TAGS": {
+      "speech_output": [
         "yes",
         "no"
       ]
