@@ -1085,12 +1085,16 @@
     "CONDITION": {
       "osm_tags": {
         "highway": "steps",
-        "conveying": true
+        "conveying": true      
       },
       "osm_element": "OpenWay"
     },
     "TAGS": {
-      "incline": []
+      "conveying": [
+        "forward",
+        "backward",
+        "reversible"
+      ]
     }
   },
   {
