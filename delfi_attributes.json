@@ -559,7 +559,10 @@
       }
     },
     "TAGS": {
-      "kerb:approach_aid": ["yes"]
+      "kerb:approach_aid": [
+        "yes",
+        "no"
+      ]
     }
   },
   {
@@ -572,7 +575,10 @@
       }
     },
     "TAGS": {
-      "kerb:approach_aid": "no"
+      "kerb:approach_aid": [
+        "yes",
+        "no"
+      ]
     }
   },
   {
