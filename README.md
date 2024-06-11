@@ -16,7 +16,7 @@ An integer that represents the DELFI-ID of the attribute that is checked by this
 
 ### `LABEL`
 
-A string that represents the Label exactly as it is displayed in the DELFI-Book.
+A string that resembles the label as it is displayed in the DELFI-Handbook.
 
 ### `CONDITION`
 
